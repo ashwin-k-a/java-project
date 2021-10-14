@@ -1,0 +1,85 @@
+{
+  "entityTypes": [
+    {
+      "entityType": "abc"
+    },
+    {
+      "entityType": "configureditem"
+    },
+    {
+      "entityType": "variantitem"
+    }
+  ],
+  "contextTypes": [
+    {
+      "contextType": "dcountry"
+    }
+  ],
+
+
+  "excludeattributelist": [
+
+    {
+      "entityType": "variantitem",
+
+      "attributelist": [
+
+
+        {
+          "attributename": "backorderable"
+        },
+
+        {
+          "attributename": "defaultsosourcetype"
+        }
+
+      ]
+
+    },
+
+    {
+      "entityType": "item",
+
+      "attributelist": [
+        {
+          "attributename": "createdbyupdate"
+        },
+
+        {
+          "attributename": "currentworkflow"
+        }
+
+      ]
+
+    },
+    {
+      "entityType": "configureditem",
+
+      "attributelist": [
+        {
+          "attributename": "ebsmasterstatus"
+        },
+
+        {
+          "attributename": "workflowassigneduser"
+        }
+
+      ]
+
+    }
+  ],
+
+  "environmentname": "xyz",
+  "tenantid": "abc",
+  "batchsize": 100,
+  "updateself": "Yes",
+  "updatecontext": "No",
+  "systemDataLocale": "en-US",
+  "analysismode": "On",
+  "deletevalue": "Yes",
+  "deleteattribute": "No",
+  "inputfordelete": {
+    "propertyname": "os",
+    "propertyvalue": "businessRule"
+  }
+}
